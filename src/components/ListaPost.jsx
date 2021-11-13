@@ -17,7 +17,7 @@ const ListaPost = ({ url }) => {
           to={`/posts/${post.id}`}
         >
           <article key={post.id}>
-            <h3 className="cartao-post__titulo">{post.titulo}</h3>
+            <h3 className="cartao-post__titulo">{post.title}</h3>
             <p className="cartao-post__meta">{post.metadescription}</p>
           </article>
         </Link>
